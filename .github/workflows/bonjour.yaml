@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Récupérer le code source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Lister les fichiers
-        run: ls -a
+        run: ls -la
