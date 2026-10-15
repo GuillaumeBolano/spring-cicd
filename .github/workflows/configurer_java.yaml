@@ -13,7 +13,6 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
-          cache: 'maven'
 
       - name: Afficher la version de Java
         run: java -version
