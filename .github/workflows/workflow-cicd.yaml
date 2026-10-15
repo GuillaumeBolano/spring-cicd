@@ -24,6 +24,7 @@ jobs:
         uses: github/codeql-action/init@v4
         with:
           languages: java-kotlin
+          build-mode: manual
 
       - name: Construire avec Maven
         run: mvn -B clean package -DskipTests
